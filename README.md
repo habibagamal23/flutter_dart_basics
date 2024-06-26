@@ -37,3 +37,19 @@ A repository containing basic Dart and Flutter examples, including various data 
 
 - Ideal for comparing a single variable against multiple constant values.
 - Provides more readable and maintainable code for discrete values.
+
+
+# Understanding Methods and Parameters
+### 🛠️ Types of Methods:
+Void Method: Does not return a value, performs an action.
+Return Method: Returns a value of a specified data type (e.g., int, String).
+### 📌 Understanding Parameters and Arguments:
+Argument: The value passed when calling a method.
+Parameter: The variable in the method that receives the passed value.
+### 🔍 Types of Parameters:
+Normal Parameter: Must be provided when the method is called.
+Optional Parameter: Not mandatory, can have a default value, enclosed in square brackets.
+Named Parameter: Optional, must be specified by name when calling, enclosed in curly brackets.
+### 💡 Tips:
+Optional Parameters should always be last.
+Every named parameter is optional, but not all optional parameters are named.
